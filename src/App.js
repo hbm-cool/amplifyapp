@@ -10,6 +10,14 @@ function App() {
         <h1>Hello Syafiq</h1>
       </header>
     </div>
+<table style="width: 100%;">
+    <tbody>
+        <tr>
+            <td style="width: 50.0000%;">Test&nbsp;</td>
+            <td style="width: 50.0000%;">test 2</td>
+        </tr>
+    </tbody>
+</table>
   );
 }
 
