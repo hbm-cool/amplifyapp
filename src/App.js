@@ -4,15 +4,6 @@ import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { AmplifyTheme } from 'aws-amplify-react';
 
-
-const myTheme = {
-    ...AmplifyTheme,
-    BackgroundColor: { color: 'blue',backgroundColor: 'blue' },
-    button: { color: 'blue',backgroundColor: 'blue' },
-    amazonSignInButton: { color: 'blue',backgroundColor: 'blue' },
-    signInButton: { backgroundColor: 'blue' , color: 'blue'}
-};
-
 function App() {
   return (
     <div className="App">
@@ -25,4 +16,4 @@ function App() {
   );
 }
 
-export default  withAuthenticator(App, myTheme);
+export default  withAuthenticator(App);
