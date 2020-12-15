@@ -4,6 +4,7 @@ import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { AmplifyTheme } from 'aws-amplify-react';
 
+
 const myTheme = {
     ...AmplifyTheme,
     BackgroundColor: { color: 'blue',backgroundColor: 'blue' },
