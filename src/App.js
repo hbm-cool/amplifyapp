@@ -4,6 +4,8 @@ import './App.css';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react'
 import { AmplifyTheme } from 'aws-amplify-react';
 
+
+
 function App() {
   return (
     <div className="App">
